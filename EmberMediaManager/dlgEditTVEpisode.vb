@@ -58,7 +58,7 @@ Public Class dlgEditTVEpisode
 
     Public Overloads Function ShowDialog(ByVal DBTVEpisode As Database.DBElement) As DialogResult
         tmpDBElement = DBTVEpisode
-        Return MyBase.ShowDialog()
+        Return ShowDialog()
     End Function
 
     Private Sub ActorEdit()
@@ -532,7 +532,7 @@ Public Class dlgEditTVEpisode
         With tmpDBElement.ImagesContainer
 
             'Load all images to MemoryStream and Bitmap
-            tmpDBElement.LoadAllImages(True, False)
+            tmpDBElement.LoadAllImages(True, True)
 
             'Fanart
             If Master.eSettings.TVEpisodeFanartAnyEnabled Then

@@ -74,6 +74,12 @@ Public Class MovieExporterModule
         End Set
     End Property
 
+    ReadOnly Property IsBusy() As Boolean Implements Interfaces.GenericModule.IsBusy
+        Get
+            Return False
+        End Get
+    End Property
+
     ReadOnly Property ModuleName() As String Implements Interfaces.GenericModule.ModuleName
         Get
             Return _Name
@@ -132,7 +138,7 @@ Public Class MovieExporterModule
                     SQLNewcommand.CommandText = String.Concat("SELECT idShow FROM tvshowlist ORDER BY SortedTitle COLLATE NOCASE;")
                     Using SQLreader As SQLite.SQLiteDataReader = SQLNewcommand.ExecuteReader()
                         While SQLreader.Read()
-                            TVShowList.Add(Master.DB.LoadTVShowFromDB(Convert.ToInt32(SQLreader("idShow")), True, True, False, False, MySettings.ExportMissingEpisodes))
+                            TVShowList.Add(Master.DB.LoadTVShowFromDB(Convert.ToInt32(SQLreader("idShow")), True, True, MySettings.ExportMissingEpisodes))
                         End While
                     End Using
                 End Using

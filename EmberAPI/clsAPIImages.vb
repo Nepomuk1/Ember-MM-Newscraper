@@ -406,6 +406,7 @@ Public Class Images
             Save(tPath)
         Next
 
+        Clear() 'Dispose to save memory
         Return tPath
     End Function
     ''' <summary>
@@ -437,6 +438,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -456,6 +459,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -475,6 +480,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -494,6 +501,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -571,6 +580,7 @@ Public Class Images
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
 
+        Clear() 'Dispose to save memory
         Return efPath
     End Function
     ''' <summary>
@@ -645,6 +655,7 @@ Public Class Images
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
 
+        Clear() 'Dispose to save memory
         Return etPath
     End Function
     ''' <summary>
@@ -682,6 +693,7 @@ Public Class Images
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
 
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -701,6 +713,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -732,6 +746,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -763,6 +779,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -782,6 +800,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -801,6 +821,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -820,6 +842,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -851,6 +875,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -870,6 +896,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -901,6 +929,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -933,6 +963,7 @@ Public Class Images
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
 
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -965,6 +996,7 @@ Public Class Images
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
 
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -985,6 +1017,7 @@ Public Class Images
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
 
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1017,6 +1050,7 @@ Public Class Images
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
 
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
 
@@ -1051,6 +1085,7 @@ Public Class Images
             Save(tPath)
         Next
 
+        Clear() 'Dispose to save memory
         Return tPath
     End Function
     ''' <summary>
@@ -1084,6 +1119,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1117,6 +1154,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1148,6 +1187,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1179,6 +1220,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1198,6 +1241,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1229,6 +1274,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
 
@@ -1263,6 +1310,7 @@ Public Class Images
             Save(tPath)
         Next
 
+        Clear() 'Dispose to save memory
         Return tPath
     End Function
     ''' <summary>
@@ -1296,6 +1344,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1317,6 +1367,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1338,6 +1390,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1359,6 +1413,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
 
@@ -1433,6 +1489,7 @@ Public Class Images
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
 
+        Clear() 'Dispose to save memory
         Return efPath
     End Function
     ''' <summary>
@@ -1466,6 +1523,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1487,6 +1546,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
     ''' <summary>
@@ -1520,6 +1581,8 @@ Public Class Images
         Catch ex As Exception
             logger.Error(New StackFrame().GetMethod().Name, ex)
         End Try
+
+        Clear() 'Dispose to save memory
         Return strReturn
     End Function
 
@@ -1791,12 +1854,20 @@ Public Class Images
             If Not bKeepExisting OrElse Not DBElement.ImagesContainer.Extrafanarts.Count >= iLimit OrElse iLimit = 0 Then
                 iDifference = iLimit - DBElement.ImagesContainer.Extrafanarts.Count
                 Dim defImgList As New List(Of MediaContainers.Image)
-
                 Select Case tContentType
                     Case Enums.ContentType.Movie
                         GetPreferredMovieExtrafanarts(SearchResultsContainer.MainFanarts, defImgList, If(Not bKeepExisting, iLimit, iDifference), nPreferredImagesContainer.ImagesContainer.Fanart, IsAutoScraper:=IsAutoScraper)
                     Case Enums.ContentType.TVShow
-                        GetPreferredTVShowExtrafanarts(SearchResultsContainer.MainFanarts, defImgList, If(Not bKeepExisting, iLimit, iDifference))
+                        ' If option RemoveDuplicateImages is activated, compare all scraped extrafanarts of the show against all current fanart (including season fanart)
+                        ' for this put all fanart of a show in temporary container
+                        Dim tmpCurrentShowImagesContainer As New MediaContainers.PreferredImagesContainer
+                        'show fanart
+                        tmpCurrentShowImagesContainer.ImagesContainer.Extrafanarts.Add(nPreferredImagesContainer.ImagesContainer.Fanart)
+                        'season fanart
+                        For Each season In DBElement.Seasons
+                            tmpCurrentShowImagesContainer.ImagesContainer.Extrafanarts.Add(season.ImagesContainer.Fanart)
+                        Next
+                        GetPreferredTVShowExtrafanarts(SearchResultsContainer.MainFanarts, defImgList, If(Not bKeepExisting, iLimit, iDifference), tmpCurrentShowImagesContainer.ImagesContainer.Extrafanarts, IsAutoScraper:=IsAutoScraper)
                 End Select
 
                 If Not bKeepExisting Then
@@ -2963,7 +3034,9 @@ Public Class Images
 
         If DoCalculateDuplicaImages = True Then
             'make sure that extraimages is not the same as main image of movie (i.e. fanart.jpg of movie should not be part of extrafanart)
-            FindDuplicateImages(imgResultList, Enums.ContentType.Movie, CurrentImage:=CurrentMovieFanart, MatchTolerance:=Master.eSettings.GeneralImageFilterFanartMatchTolerance, Limit:=iLimit)
+            Dim lsttmpCurrentMovieFanarts As New List(Of MediaContainers.Image)
+            lsttmpCurrentMovieFanarts.Add(CurrentMovieFanart)
+            FindDuplicateImages(imgResultList, Enums.ContentType.Movie, CurrentImageList:=lsttmpCurrentMovieFanarts, MatchTolerance:=Master.eSettings.GeneralImageFilterFanartMatchTolerance, Limit:=iLimit)
         End If
 
         'If Master.eSettings.MovieFanartPrefSize = Enums.MovieFanartSize.Any Then
@@ -3044,7 +3117,9 @@ Public Class Images
         'Use Imagefilter?
         If DoCalculateDuplicaImages = True Then
             'make sure that extraimages is not the same as main image of movie (i.e. fanart.jpg of movie should not be part of extrafanart)
-            FindDuplicateImages(imgResultList, Enums.ContentType.Movie, CurrentImage:=CurrentMovieFanart, MatchTolerance:=Master.eSettings.GeneralImageFilterFanartMatchTolerance, Limit:=iLimit)
+            Dim lsttmpCurrentMovieFanarts As New List(Of MediaContainers.Image)
+            lsttmpCurrentMovieFanarts.Add(CurrentMovieFanart)
+            FindDuplicateImages(imgResultList, Enums.ContentType.Movie, CurrentImageList:=lsttmpCurrentMovieFanarts, MatchTolerance:=Master.eSettings.GeneralImageFilterFanartMatchTolerance, Limit:=iLimit)
         End If
 
         If imgResultList IsNot Nothing AndAlso imgResultList.Count > 0 Then
@@ -3503,46 +3578,53 @@ Public Class Images
         End If
     End Function
 
-    Public Shared Function GetPreferredTVShowExtrafanarts(ByRef ImageList As List(Of MediaContainers.Image), ByRef imgResultList As List(Of MediaContainers.Image), ByVal iLimit As Integer) As Boolean
+    Public Shared Function GetPreferredTVShowExtrafanarts(ByRef ImageList As List(Of MediaContainers.Image), ByRef imgResultList As List(Of MediaContainers.Image), ByVal iLimit As Integer, ByVal lsttmpCurrentTVSowFanarts As List(Of MediaContainers.Image), Optional ByVal IsAutoScraper As Boolean = False) As Boolean
+
         If ImageList.Count = 0 Then Return False
+
+        Dim DoCalculateDuplicaImages As Boolean = False
+
+        If Master.eSettings.GeneralImageFilter = True AndAlso Master.eSettings.GeneralImageFilterFanart = True AndAlso ((IsAutoScraper = True AndAlso Master.eSettings.GeneralImageFilterAutoscraper = True) OrElse (IsAutoScraper = False AndAlso Master.eSettings.GeneralImageFilterImagedialog = True)) Then
+            DoCalculateDuplicaImages = True
+        End If
 
         If Master.eSettings.TVShowExtrafanartsPrefSize = Enums.TVFanartSize.Any Then
             For Each img As MediaContainers.Image In ImageList
                 imgResultList.Add(img)
-                iLimit -= 1
-                If iLimit = 0 Then Exit For
+                'different handling if ImageFilter is activated: Dont't limit/cut images because method RemoveDuplicateImages will make sure that only "iLimit" and unique images will be returned
+                If DoCalculateDuplicaImages = False Then
+                    iLimit -= 1
+                    If iLimit = 0 Then Exit For
+                End If
             Next
         End If
 
         If (imgResultList Is Nothing OrElse imgResultList.Count < iLimit) AndAlso Master.eSettings.TVShowExtrafanartsPrefSizeOnly Then
             For Each img As MediaContainers.Image In ImageList.Where(Function(f) f.TVFanartSize = Master.eSettings.TVShowExtrafanartsPrefSize)
                 imgResultList.Add(img)
-                iLimit -= 1
-                If iLimit = 0 Then Exit For
+                'different handling if ImageFilter is activated: Dont't limit/cut images because RemoveDuplicateImages will make sure that only "iLimit" and unique images will be returned
+                If DoCalculateDuplicaImages = False Then
+                    iLimit -= 1
+                    If iLimit = 0 Then Exit For
+                End If
             Next
         End If
 
         If (imgResultList Is Nothing OrElse imgResultList.Count < iLimit) AndAlso Not Master.eSettings.TVShowExtrafanartsPrefSizeOnly AndAlso Not Master.eSettings.TVShowExtrafanartsPrefSize = Enums.TVFanartSize.Any Then
             For Each img As MediaContainers.Image In ImageList.Where(Function(f) Not String.IsNullOrEmpty(f.URLOriginal))
                 imgResultList.Add(img)
-                iLimit -= 1
-                If iLimit = 0 Then Exit For
+                'different handling if ImageFilter is activated: Dont't limit/cut images because RemoveDuplicateImages will make sure that only "iLimit" and unique images will be returned
+                If DoCalculateDuplicaImages = False Then
+                    iLimit -= 1
+                    If iLimit = 0 Then Exit For
+                End If
             Next
         End If
 
-
-
-        'If Master.eSettings.MovieFanartPrefSize = Enums.MovieFanartSize.Any Then
-        '    imgResult = ImageList.First
-        'End If
-
-        'If imgResult Is Nothing Then
-        '    imgResult = ImageList.Find(Function(f) f.MovieFanartSize = Master.eSettings.MovieFanartPrefSize)
-        'End If
-
-        'If imgResult Is Nothing AndAlso Not Master.eSettings.MovieFanartPrefSizeOnly AndAlso Not Master.eSettings.MovieFanartPrefSize = Enums.MovieFanartSize.Any Then
-        '    imgResult = ImageList.First
-        'End If
+        If DoCalculateDuplicaImages = True Then
+            'make sure that extraimages is not the same as main image of movie (i.e. fanart.jpg of movie should not be part of extrafanart)
+            FindDuplicateImages(imgResultList, Enums.ContentType.Movie, CurrentImageList:=lsttmpCurrentTVSowFanarts, MatchTolerance:=Master.eSettings.GeneralImageFilterFanartMatchTolerance, Limit:=iLimit)
+        End If
 
         If imgResultList IsNot Nothing AndAlso imgResultList.Count > 0 Then
             Return True
@@ -3630,6 +3712,7 @@ Public Class Images
     ''' <returns>true: no errors, false: no images to compare</returns>
     ''' <remarks>
     ''' Find duplicate images in a given list of images and either mark them in list by setting IsDuplicate property or remove them from the list - behaviour depends on limit parameter
+    ''' 2016/02/10 Cocotus - Supports now comparing against list of currentimages (like fanarts of tvshows (seasons)) - for that created new function SearchDuplicateImageinList
     ''' 2016/01/10 Cocotus - Optimized behaviour to support Limit parameter (will result in faster processing)
     ''' Basic usage: 
     ''' If RemoveDuplicatesFromList = false -> ALL images of movie/episode will be downloaded and checked for duplicates. Whole Imagelist will be returned (may also contain duplicate images). Duplicated images will have Image-property "IsDuplicate"=true set
@@ -3637,7 +3720,7 @@ Public Class Images
     ''' 2015/09/23 Cocotus - First implementation
     ''' Used to avoid duplicate images
     ''' </remarks>
-    Public Shared Function FindDuplicateImages(ByRef ImageList As List(Of MediaContainers.Image), ByVal ContentType As Enums.ContentType, Optional ByVal CurrentImage As MediaContainers.Image = Nothing, Optional ByVal MatchTolerance As Integer = 5, Optional ByVal Limit As Integer = 0, Optional ByVal RemoveDuplicatesFromList As Boolean = True) As Boolean
+    Public Shared Function FindDuplicateImages(ByRef ImageList As List(Of MediaContainers.Image), ByVal ContentType As Enums.ContentType, Optional ByVal CurrentImageList As List(Of MediaContainers.Image) = Nothing, Optional ByVal MatchTolerance As Integer = 5, Optional ByVal Limit As Integer = 0, Optional ByVal RemoveDuplicatesFromList As Boolean = True) As Boolean
         'if there are no images to compare, then leave immediately
         If ImageList.Count = 0 Then Return False
 
@@ -3665,6 +3748,7 @@ Public Class Images
 
         'current compared image in imagelist
         Dim tmpImage As Images = Nothing
+        Dim lsttmpSimilarityresults As New List(Of Integer)
 
         'loop through every image scrapedlist
         For i = 0 To ImageList.Count - 1
@@ -3673,60 +3757,27 @@ Public Class Images
                 'To compare images for similarity we need to load them
                 'Checking for similarity means we need to load images to compare the content! -> Need to download the scraped image
                 'If the images aren't available in cache or stored local, download them
-                If ImageList(i).LoadAndCache(ContentType, LoadBitmap:=True) Then
-                    If ImageList(i).ImageThumb IsNot Nothing Then
+                If ImageList(i).LoadAndCache(ContentType, False, True) Then
+                    If ImageList(i).ImageThumb IsNot Nothing AndAlso ImageList(i).ImageThumb.Image IsNot Nothing Then
                         tmpImage = ImageList(i).ImageThumb
-                    ElseIf ImageList(i).ImageOriginal IsNot Nothing Then
+                    ElseIf ImageList(i).ImageOriginal IsNot Nothing AndAlso ImageList(i).ImageOriginal.Image IsNot Nothing Then
                         tmpImage = ImageList(i).ImageOriginal
                     End If
 
-                    '1. Step (Optional): Check if tmpimage is identical to (current) image (i.e. fanart) of movie!
-                    If CurrentImage IsNot Nothing Then
-                        'invalid comparison (one of images is nothing?!)
-                        If tmpImage Is Nothing OrElse tmpImage.Image Is Nothing Then
-                            currentimagesimilarity = 99
-                            'image is Nothing -> no need to compare anything!
-                            logger.Warn("[FindDuplicateImages] Image is nothing. Can't compare images! Image at Index: " & i)
-                        Else
-                            If CurrentImage.LocalFilePathSpecified Then
-                                currentimagesimilarity = ImageUtils.ImageComparison.GetSimilarity(tmpImage.Image, CurrentImage.LocalFilePath, ImageUtils.ImageComparison.Algorithm.AverageHash)
-                            ElseIf CurrentImage.ImageThumb IsNot Nothing Then
-                                If CurrentImage.ImageThumb.Image IsNot Nothing Then
-                                    currentimagesimilarity = ImageUtils.ImageComparison.GetSimilarity(tmpImage.Image, CurrentImage.ImageThumb.Image, ImageUtils.ImageComparison.Algorithm.AverageHash)
-                                Else
-                                    currentimagesimilarity = 99
-                                    'image is Nothing -> no need to compare anything!
-                                    logger.Warn("[FindDuplicateImages] Currentimage is nothing. Can't compare images!")
-                                End If
-                            ElseIf CurrentImage.ImageOriginal IsNot Nothing Then
-                                If CurrentImage.ImageOriginal.Image IsNot Nothing Then
-                                    currentimagesimilarity = ImageUtils.ImageComparison.GetSimilarity(tmpImage.Image, CurrentImage.ImageOriginal.Image, ImageUtils.ImageComparison.Algorithm.AverageHash)
-                                Else
-                                    currentimagesimilarity = 99
-                                    'image is Nothing -> no need to compare anything!
-                                    logger.Warn("[FindDuplicateImages] Currentimage is nothing. Can't compare images!")
-                                End If
-                            Else
-                                currentimagesimilarity = 99
-                                'image is Nothing -> no need to compare anything!
-                                logger.Warn("[FindDuplicateImages] Currentimage is nothing. Can't compare images!")
-                            End If
-                        End If
-                        'check for duplicate
-                        If MatchTolerance >= currentimagesimilarity Then
-                            logger.Trace("[FindDuplicateImages] Duplicate images found: Image1: " & ImageList.Item(i).URLOriginal & " Image2: Current image!")
-                            If RemoveDuplicatesFromList = True Then
-                                'investigate next image, start with next item in loop
-                                Continue For
-                            End If
-                        End If
-                        'if all images will be analyzed then store index of image in imagelist with calculacted Similarityvalue
-                        If RemoveDuplicatesFromList = False Then
-                            Dim newSimilarityvalue = Tuple.Create(i, currentimagesimilarity)
-                            lstCalculatedSimilarity.Add(newSimilarityvalue)
+                    '1. Step (Optional): Check if tmpimage is identical to (current) image(s) (i.e. fanart) of movie/shows!
+                    currentimagesimilarity = SearchDuplicateImageinList(tmpImage, CurrentImageList, MatchTolerance)
+                    If MatchTolerance >= currentimagesimilarity Then
+                        logger.Trace("[FindDuplicateImages] Duplicate images found: Image1: " & ImageList.Item(i).URLOriginal & " Image2: Current image!")
+                        If RemoveDuplicatesFromList = True Then
+                            'investigate next image, start with next item in loop
+                            Continue For
                         End If
                     End If
-
+                    'if all images will be analyzed then store index of image in imagelist with calculacted Similarityvalue
+                    If RemoveDuplicatesFromList = False Then
+                        Dim newSimilarityvalue = Tuple.Create(i, currentimagesimilarity)
+                        lstCalculatedSimilarity.Add(newSimilarityvalue)
+                    End If
 
                     '2. Step: Calculate similarity for each image combination in imagelist (lstLimit or whole Imagelist depending on RemoveDuplicates parameter) - basically we compare each image to find out which images are identical to each other
                     If RemoveDuplicatesFromList = True Then
@@ -3744,10 +3795,10 @@ Public Class Images
                                     'Checking for similarity means we need to load images to compare the content! -> Need to download the scraped image
                                     'If the images aren't available in cache or stored local, download them
                                     referenceimage = Nothing
-                                    If lstLimitImages(j).LoadAndCache(ContentType, LoadBitmap:=True) Then
-                                        If lstLimitImages(j).ImageThumb IsNot Nothing Then
+                                    If lstLimitImages(j).LoadAndCache(ContentType, False, True) Then
+                                        If lstLimitImages(j).ImageThumb IsNot Nothing AndAlso lstLimitImages(j).ImageThumb.Image IsNot Nothing Then
                                             referenceimage = lstLimitImages(j).ImageThumb
-                                        ElseIf lstLimitImages(i).ImageOriginal IsNot Nothing Then
+                                        ElseIf lstLimitImages(j).ImageOriginal IsNot Nothing AndAlso lstLimitImages(j).ImageOriginal.Image IsNot Nothing Then
                                             referenceimage = lstLimitImages(j).ImageOriginal
                                         End If
                                     End If
@@ -3780,13 +3831,14 @@ Public Class Images
                             'Checking for similarity means we need to load images to compare the content! -> Need to download the scraped image
                             'If the images aren't available in cache or stored local, download them
                             Dim referenceimage As Images = Nothing
-                            If ImageList(j).LoadAndCache(ContentType, LoadBitmap:=True) Then
-                                If ImageList(j).ImageThumb IsNot Nothing Then
+                            If ImageList(j).LoadAndCache(ContentType, False, True) Then
+                                If ImageList(j).ImageThumb IsNot Nothing AndAlso ImageList(j).ImageThumb.Image IsNot Nothing Then
                                     referenceimage = ImageList(j).ImageThumb
-                                ElseIf ImageList(i).ImageOriginal IsNot Nothing Then
+                                ElseIf ImageList(j).ImageOriginal IsNot Nothing AndAlso ImageList(j).ImageOriginal.Image IsNot Nothing Then
                                     referenceimage = ImageList(j).ImageOriginal
                                 End If
                             End If
+
                             If referenceimage Is Nothing OrElse referenceimage.Image Is Nothing Then
                                 currentimagesimilarity = 99
                                 'Second (loaded) image is nothing -> no need to compare anything!
@@ -3852,6 +3904,64 @@ Public Class Images
         Return True
     End Function
 
+    ''' <summary>
+    ''' Check if an image is in a given list of images
+    ''' </summary>
+    ''' <param name="referenceImage">Current image of video file (i.e. fanart.jpg) which should be checked</param>
+    ''' <param name="searchImageList">Source <c>List</c> of <c>MediaContainers.Image</c> holding available extraFanart</param>
+    ''' <param name="MatchTolerance">0: 100% identical images, 0-5: most likely identical, >10: different images</param>
+    ''' <returns>similarity value of found duplicate image (result of image comparison)</returns>
+    ''' <remarks>
+    ''' 2016/02/10 Cocotus - First implementation
+    ''' Refactored the massive FindDuplicateImages method...
+    ''' </remarks>
+    Public Shared Function SearchDuplicateImageinList(ByRef referenceImage As Images, ByVal searchImageList As List(Of MediaContainers.Image), ByVal MatchTolerance As Integer) As Integer
+
+        Dim currentimagesimilarity As Integer = 99
+        If searchImageList Is Nothing Then
+            Return 99
+        End If
+        For Each searchImage In searchImageList
+            If searchImage IsNot Nothing Then
+                'invalid comparison (one of images is nothing?!)
+                If referenceImage Is Nothing OrElse referenceImage.Image Is Nothing Then
+                    currentimagesimilarity = 99
+                    'image is Nothing -> no need to compare anything!
+                    logger.Warn("[SearchDuplicateImageinList] Image is nothing. Can't compare images!")
+                Else
+                    If searchImage.LocalFilePathSpecified Then
+                        currentimagesimilarity = ImageUtils.ImageComparison.GetSimilarity(referenceImage.Image, searchImage.LocalFilePath, ImageUtils.ImageComparison.Algorithm.AverageHash)
+                    ElseIf searchImage.ImageThumb IsNot Nothing Then
+                        If searchImage.ImageThumb.Image IsNot Nothing Then
+                            currentimagesimilarity = ImageUtils.ImageComparison.GetSimilarity(referenceImage.Image, searchImage.ImageThumb.Image, ImageUtils.ImageComparison.Algorithm.AverageHash)
+                        Else
+                            currentimagesimilarity = 99
+                            'image is Nothing -> no need to compare anything!
+                            logger.Warn("[SearchDuplicateImageinList] searchImage is nothing. Can't compare images!")
+                        End If
+                    ElseIf searchImage.ImageOriginal IsNot Nothing Then
+                        If searchImage.ImageOriginal.Image IsNot Nothing Then
+                            currentimagesimilarity = ImageUtils.ImageComparison.GetSimilarity(referenceImage.Image, searchImage.ImageOriginal.Image, ImageUtils.ImageComparison.Algorithm.AverageHash)
+                        Else
+                            currentimagesimilarity = 99
+                            'image is Nothing -> no need to compare anything!
+                            logger.Warn("[SearchDuplicateImageinList] searchImage is nothing. Can't compare images!")
+                        End If
+                    Else
+                        currentimagesimilarity = 99
+                        'image is Nothing -> no need to compare anything!
+                        logger.Warn("[SearchDuplicateImageinList] searchImage is nothing. Can't compare images!")
+                    End If
+                End If
+                'check for duplicate
+                If MatchTolerance >= currentimagesimilarity Then
+                    logger.Trace("[SearchDuplicateImageinList] Duplicate images found: Image: " & searchImage.URLOriginal)
+                    Return currentimagesimilarity
+                End If
+            End If
+        Next
+        Return currentimagesimilarity
+    End Function
 #End Region 'Methods
 
 End Class

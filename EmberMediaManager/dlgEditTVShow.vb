@@ -64,7 +64,7 @@ Public Class dlgEditTVShow
 
     Public Overloads Function ShowDialog(ByVal DBTVShow As Database.DBElement) As DialogResult
         tmpDBElement = DBTVShow
-        Return MyBase.ShowDialog()
+        Return ShowDialog()
     End Function
 
     Private Sub ActorEdit()
@@ -1152,7 +1152,7 @@ Public Class dlgEditTVShow
         With tmpDBElement.ImagesContainer
 
             'Load all images to MemoryStream and Bitmap
-            tmpDBElement.LoadAllImages(True, False)
+            tmpDBElement.LoadAllImages(True, True)
 
             'Banner
             If Master.eSettings.TVShowBannerAnyEnabled Then

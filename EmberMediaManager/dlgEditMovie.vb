@@ -87,7 +87,7 @@ Public Class dlgEditMovie
 
     Public Overloads Function ShowDialog(ByVal DBMovie As Database.DBElement) As DialogResult
         tmpDBElement = DBMovie
-        Return MyBase.ShowDialog()
+        Return ShowDialog()
     End Function
 
     Private Sub ActorEdit()
@@ -1735,7 +1735,7 @@ Public Class dlgEditMovie
             With tmpDBElement.ImagesContainer
 
                 'Load all images to MemoryStream and Bitmap
-                tmpDBElement.LoadAllImages(True, False)
+                tmpDBElement.LoadAllImages(True, True)
 
                 'Banner
                 If Master.eSettings.MovieBannerAnyEnabled Then

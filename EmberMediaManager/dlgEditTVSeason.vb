@@ -53,7 +53,7 @@ Public Class dlgEditTVSeason
 
     Public Overloads Function ShowDialog(ByVal DBTVSeason As Database.DBElement) As DialogResult
         tmpDBElement = DBTVSeason
-        Return MyBase.ShowDialog()
+        Return ShowDialog()
     End Function
 
     Private Sub btnRemoveBanner_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRemoveBanner.Click
@@ -409,7 +409,7 @@ Public Class dlgEditTVSeason
         With tmpDBElement.ImagesContainer
 
             'Load all images to MemoryStream and Bitmap
-            tmpDBElement.LoadAllImages(True, False)
+            tmpDBElement.LoadAllImages(True, True)
 
             'Banner
             If (Not tmpDBElement.TVSeason.Season = 999 AndAlso Master.eSettings.TVSeasonBannerAnyEnabled) OrElse
